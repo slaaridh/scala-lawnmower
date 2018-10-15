@@ -5,7 +5,11 @@ import com.mawitnow.lawnmower.domain.Direction._
 
 class LawnMower(x: Int, y: Int, direction: Char, maxX: Int, maxY: Int) {
 
+
+  require(x <= maxX)
+  require(y <= maxY)
   private val initPosition = Position(x, y, Direction.from(direction))
+
 
   /**
     * Execute commands

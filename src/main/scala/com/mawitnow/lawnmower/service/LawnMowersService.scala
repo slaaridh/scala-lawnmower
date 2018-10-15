@@ -12,7 +12,7 @@ object LawnMowersService {
 
   /**
     * Return the list of lawnmowers positions.
-    * if the input is not valid a runtime exception will be thrown and no lawnmower will be created.
+    * if the input is not valid a runtime exception will be thrown and no lawnmowers will be created.
     *
     * @param input
     * @return a list of String
